@@ -2,8 +2,6 @@
 layout: default
 ---
 
-h2. Projects
-
 <table style="text-align: center; width: 100%;">
   <tr>
     <td>
@@ -14,5 +12,7 @@ h2. Projects
   </tr>
 </table>
 
-"GitHub profile":http://github.com/dismaldenizen
+
+
+<span style="position: absolute; bottom: 40px">"GitHub profile":http://github.com/dismaldenizen</span>
 
