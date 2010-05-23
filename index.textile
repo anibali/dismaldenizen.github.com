@@ -2,7 +2,15 @@
 layout: default
 ---
 
-h2. TODO
+h2. Projects
 
-OK, gimme a break. I'm working on it...
+<table style="text-align: center; width: 100%;">
+  <tr>
+    <td>
+      <a href="http://dismaldenizen.github.com/embedded_url/">
+        <img src="images/embedded_url.png" alt="Embedded URL" title="Embedded URL" />
+      </a>
+    </td>
+  </tr>
+</table>
 

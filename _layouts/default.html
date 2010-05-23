@@ -1,29 +1,83 @@
 <html>
   <head>
+    <title>dismaldenizen @ GitHub</title>
+    
+    <!-- http://www.pmob.co.uk/pob/hoz-vert-center.htm -->
+    
     <style>
+      /* mac hide \*/
+      html,body{height:100%;width:100%;}
+      /* end hide */
+      
       body
       {
-        margin: 16px;
+        background-color: white;
+        text-align:center;
+        min-height:468px;/* for good browsers*/
+        min-width:552px;/* for good browsers*/
       }
       
-      .center_pane
+      #outer
       {
+        height:100%;
+        width:100%;
+        display:table;
+        vertical-align:middle;
+      }
+      
+      #middle
+      {
+        text-align: center;
+        position:relative;
+        vertical-align:middle;
+        display:table-cell;
+      }
+
+      #inner
+      {
+        text-align: left;
         margin-left: auto;
         margin-right: auto;
+        margin-top: 32px;
         padding: 8px;
-        width: 750px;
-        background-color: #cff;
-        border: 4px solid #add;
+        width: 600px;
+        height: 600px;
+        border: 4px solid black;
+      }
+      
+      a img
+      {
+        border: 0px;
       }
     </style>
+    
+    <!--[if lt IE 8]>
+    <style type="text/css">
+    #container{top:50%}
+    #inner{top:-50%;position:relative;}
+    </style>
+    <![endif]-->
+    
+    <!--[if IE 7]>
+    <style type="text/css">
+    #outer{
+    position:relative;
+    overflow:hidden;
+    }
+    </style>
+    <![endif]-->
   </head>
 
   <body>
-    <div class="center_pane">
-      <h1>dismaldenizen @ GitHub</h1>
-      
-      <div>
+    <div id="outer">
+      <div id="middle">
+        <div id="inner">
+          <h1>dismaldenizen @ GitHub</h1>
+          
+          <div>
 {{ content }}
+          </div>
+        </div>
       </div>
     </div>
   </body>
