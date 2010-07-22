@@ -14,6 +14,11 @@ layout: default
         <img src="images/ruby-ogg.png" alt="ruby-ogg" title="ruby-ogg" />
       </a>
     </td>
+    <td>
+      <a href="http://github.com/dismaldenizen/toneforge">
+        <img src="images/toneforge.png" alt="Toneforge" title="Toneforge" />
+      </a>
+    </td>
   </tr>
 </table>
 
