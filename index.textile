@@ -22,5 +22,5 @@ layout: default
   </tr>
 </table>
 
-<span style="position: absolute; bottom: 40px">"GitHub profile":http://github.com/dismaldenizen</span>
+<span style="position: absolute; bottom: 40px">See "my GitHub profile":http://github.com/dismaldenizen for a full list of projects.</span>
 
