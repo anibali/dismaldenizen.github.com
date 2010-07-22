@@ -5,8 +5,13 @@ layout: default
 <table style="text-align: center; width: 100%;">
   <tr>
     <td>
-      <a href="http://dismaldenizen.github.com/embedded_url/">
+      <a href="http://dismaldenizen.github.com/embedded_url">
         <img src="images/embedded_url.png" alt="Embedded URL" title="Embedded URL" />
+      </a>
+    </td>
+    <td>
+      <a href="http://github.com/dismaldenizen/ruby-ogg">
+        <img src="images/ruby-ogg.png" alt="ruby-ogg" title="ruby-ogg" />
       </a>
     </td>
   </tr>
